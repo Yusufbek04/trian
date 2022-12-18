@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="row">
+    <div class="col">
+        <form id="input" class="open">
+            <div class="box">
+                <div class="inputBox">
+                    <input type="text" required="required" id="l-a">
+                    <span>L <small>a</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="l-b">
+                    <span>L <small>b</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="l-c">
+                    <span>L <small>c</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="v-a">
+                    <span>v <small>a</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="v-b">
+                    <span>v <small>b</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="v-c">
+                    <span>v <small>c</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="rapid-time">
+                    <span>Rapid time</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="slow-time">
+                    <span>slow time</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="n">
+                    <span>n</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="m-a">
+                    <span>m <small>a</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="m-b">
+                    <span>m <small>b</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="m-c">
+                    <span>m <small>c</small></span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" required="required" id="t-tex-a">
+                    <span>t <small>tex a</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="t-sam-a">
+                    <span>t <small>sam a</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="t-tex-b">
+                    <span>t <small>tex b</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="t-sam-b">
+                    <span>t <small>sam b</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="t-tex-c">
+                    <span>t <small>tex c</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="t-sam-c">
+                    <span>t <small>sam c</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="t-band-b">
+                    <span>t <small>band b</small></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" required="required" id="t-band-d">
+                    <span>t <small>band d</small></span>
+                </div>
+
+            </div>
+            <div class="button">
+                <button type="reset">Reset</button>
+                <button type="button" onclick="a()">Submit</button>
+            </div>
+        </form>
+        <div class="close-res" id="res">
+            <div class="text">
+                <h3>Marshrut tezligi: <span id="speed_train"></span></h3>
+                <h3>Texnik stansiyalarda turib qolish vaqti: <span id="stop"></span></h3>
+                <h3>A uchastkada harakatlanish vaqti:  <span id="going_at_a"></span></h3>
+                <h3>B uchastkada harakatlanish vaqti:  <span id="going_at_b"></span></h3>
+                <h3>C uchastkada harakatlanish vaqti:  <span id="going_at_c"></span></h3>
+                <h3>Umumiy harakatlanish vaqti:  <span id="total_movement_time"></span></h3>
+                <h3>v_uch_rapid_A =  <span id="v_uch_rapid_A"></span></h3>
+                <h3>v_uch_rapid_B =  <span id="v_uch_rapid_B"></span></h3>
+                <h3>v_uch_rapid_C =  <span id="v_uch_rapid_C"></span></h3>
+            </div>
+            <button onclick="closeRes()">Close</button>
+        </div>
+    </div>
+    <div class="col">
+        <div class="image"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
